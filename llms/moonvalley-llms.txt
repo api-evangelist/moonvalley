@@ -1,0 +1,27 @@
+# Moonvalley
+
+> Moonvalley is an AI research lab building Marey, a studio-grade generative video model for filmmakers. Marey produces cinematic image-to-video and text-to-video with precise controls (pose transfer, camera control, motion transfer, trajectory control), trained on licensed data and marketed as "commercially safe." A first-party public API is announced but currently waitlist-only; Marey is available today through inference partners fal.ai and ComfyUI.
+
+## Products
+- [Marey](https://www.moonvalley.com/): Studio-quality AI video generation from images or text, with filmmaker-grade motion, lighting, and camera controls.
+
+## Developers
+- [Public API (waitlist)](https://www.moonvalley.com/api): Sign up to be alerted when the public API becomes available. No public API reference, SDK, or OpenAPI is published yet.
+- [Partner with us](https://www.moonvalley.com/partner-with-us): Inference partner / integration inquiries.
+- Inference partners: fal.ai and ComfyUI (native API nodes and workflows) run Marey today.
+
+## Product & Community
+- [Showcase](https://www.moonvalley.com/showcase): Example generations.
+- [Start creating (sign up)](https://app.moonvalley.com/signup): Product sign up.
+- [Discord community](https://discord.gg/JxQhZD7yHP): Support and community.
+- [Blog — Beyond The Frame](https://www.moonvalley.com/beyondtheframe): Company writing and press.
+- [Careers](https://www.moonvalley.com/careers)
+- [Team](https://www.moonvalley.com/team)
+
+## Legal
+- [Terms of Service](https://www.moonvalley.com/legal-trust-safety/terms-of-service)
+- [Privacy Policy](https://www.moonvalley.com/legal-trust-safety/privacy-policy)
+- [Legal, Trust & Safety hub](https://www.moonvalley.com/legal-trust-safety)
+
+## API Evangelist artifacts
+- [Domain security probe](https://raw.githubusercontent.com/api-evangelist/moonvalley/refs/heads/main/security/moonvalley-domain-security.yml): TLS/HSTS/DNS posture for moonvalley.com.

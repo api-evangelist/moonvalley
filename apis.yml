@@ -1,8 +1,24 @@
 aid: moonvalley
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/moonvalley.png
 name: Moonvalley
-description: 'Moonvalley is a company surfaced as a portfolio company of bessemer-venture-partners, general-catalyst
-  and added to the API Evangelist network as a stub for enrichment. Sector: ai-ml. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Moonvalley is an AI research lab building Marey, a studio-grade generative video model for
+  filmmakers. Marey generates cinematic image-to-video and text-to-video with precise creative controls
+  — pose transfer, camera control, motion transfer, and trajectory control — and is trained exclusively
+  on licensed data, which Moonvalley markets as a "commercially safe" model for professional production.
+  Marey launched publicly in July 2025. A first-party public API is announced but currently waitlist-only;
+  developers can run Marey today through inference partners fal.ai and ComfyUI. Backed by Bessemer Venture
+  Partners and General Catalyst.'
 url: https://raw.githubusercontent.com/api-evangelist/moonvalley/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Ai Ml
+- Generative AI
+- Video Generation
+- Video
+- Media
+- Filmmaking
+- Machine Learning
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +46,29 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/moonvalley-domain-security.yml
+- type: LLMsTxt
+  url: llms/moonvalley-llms.txt
 - type: Website
   url: https://www.moonvalley.com/
+- type: DeveloperPortal
+  name: Public API (waitlist)
+  url: https://www.moonvalley.com/api
+- type: Blog
+  name: Beyond The Frame
+  url: https://www.moonvalley.com/beyondtheframe
+- type: Support
+  name: Discord Community
+  url: https://discord.gg/JxQhZD7yHP
+- type: SignUp
+  url: https://app.moonvalley.com/signup
+- type: TermsOfService
+  url: https://www.moonvalley.com/legal-trust-safety/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.moonvalley.com/legal-trust-safety/privacy-policy
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
